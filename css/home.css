@@ -14,6 +14,18 @@ body {
   background-attachment: fixed;
 }
 
+.foooter {
+  display: flex;
+  flex-direction: column;      /* Alinha os textos em coluna */
+  justify-content: center;     /* Centraliza verticalmente */
+  align-items: center;         /* Centraliza horizontalmente */
+  padding: 20px;               /* Espaçamento interno */
+  min-height: 100px;           /* Garante altura mínima visível */
+  background-color: #0e0e0e;
+  font-size: 14px;             /* Ajuste de tamanho de texto, se necessário */
+  border-top: 1px solid #333;
+}
+
 
 .top-bar {
   display: flex;
